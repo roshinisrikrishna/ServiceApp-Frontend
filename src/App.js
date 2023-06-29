@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {BrowserRouter, Routes, Route,HashRouter} from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Home from './pages/Home';
@@ -11,7 +11,7 @@ import Login from './pages/Login';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename='/ServiceApp-Frontend'>
     <div className="App">
     <ToastContainer position="top-center"/>
     <Routes>
@@ -23,7 +23,7 @@ function App() {
     <Route path='/travel/:id' element={<TravelLog/>}/>
     </Routes>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
