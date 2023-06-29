@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ServiceApp-Frontend/static/css/main.380af404.css",
+    "main.js": "/ServiceApp-Frontend/static/js/main.ed7c4970.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/ServiceApp-Frontend/static/js/787.c4e7f8f9.chunk.js",
+    "index.html": "/ServiceApp-Frontend/index.html",
+    "main.380af404.css.map": "/ServiceApp-Frontend/static/css/main.380af404.css.map",
+    "main.ed7c4970.js.map": "/ServiceApp-Frontend/static/js/main.ed7c4970.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/ServiceApp-Frontend/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.380af404.css",
+    "static/js/main.ed7c4970.js"
+  ]
+}
